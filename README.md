@@ -1,4 +1,4 @@
-#60DayPythonLearning
+# 60DayPythonLearning
 
 Hello fellow Developers,
 
@@ -12,7 +12,10 @@ I am learning the course content as well I am adding my few understanding in the
 I will try to add the comments that will help you all to learn easily.
 
 
-Abbreviation:
+### Abbreviation:
 
 CE --> Code Experiment
 
+
+## streamlit
+Python library to create Web Apps easily
