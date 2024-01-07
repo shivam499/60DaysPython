@@ -17,8 +17,8 @@ def add_todo():
     if len(new_todo.strip("\n")) > 0:
         todos.append(new_todo)
         write_file(todos)
-    else:
-        st.warning("Todo is empty")
+    # else:
+    #     st.warning("Todo is empty")
 
 
 def edit_todo(todo, old_todo):
