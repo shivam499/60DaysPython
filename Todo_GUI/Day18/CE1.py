@@ -16,7 +16,10 @@ btn_convert = gui.Button("Convert", key="convert")
 btn_exit = gui.Button("Exit", key="exit")
 lbl_result = gui.Text(key="result")
 
-window = gui.Window("Convertor", layout=[[label_feet, feet_input], [label_inch, inch_input],
+col1 = gui.Column([[label_feet], [label_inch]])
+col2 = gui.Column([[feet_input], [inch_input]])
+
+window = gui.Window("Convertor", layout=[[col1, col2],
                                          [btn_convert, btn_exit, lbl_result]])
 
 while True:
