@@ -21,4 +21,4 @@ for todo in todos:
         st.experimental_rerun()
 
 st.text_input(label="", placeholder="Add new todo...", key="new_todo",
-              on_change=fn.add_todo)
+              on_change=fn.add_todo(st.session_state["new_todo"]))

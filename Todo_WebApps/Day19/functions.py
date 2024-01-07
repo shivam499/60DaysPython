@@ -11,9 +11,9 @@ def write_file(todo_val, filename='todos.txt'):
         file.writelines(todo_val)
 
 
-def add_todo():
+def add_todo(todo):
     todos = read_file()
-    new_todo = st.session_state["new_todo"] + "\n"
+    new_todo = todo + "\n"
     if len(new_todo.strip("\n")) > 0:
         todos.append(new_todo)
         write_file(todos)
