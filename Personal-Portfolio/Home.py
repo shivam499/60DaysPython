@@ -16,8 +16,6 @@ with col2:
 Recently, I embraced the realm of cloud integration through IICS (Informatica Intelligent Cloud Services), focusing on Cloud Data Integration (CDI) and Cloud Data Quality (CDQ) services. This endeavor has broadened my capabilities in harnessing the power of cloud technology for scalable and seamless data solutions.
 
 In the programming landscape, I am adept at Java, Python, and Android application development. This multifaceted proficiency allows me to seamlessly bridge the gap between data management and application development, contributing to comprehensive and innovative solutions.
-
-I am driven by a passion for staying at the forefront of technological advancements, ensuring that my skills remain relevant and impactful. With a commitment to excellence, I bring a wealth of experience to tackle challenges in dynamic environments, aiming to innovate and drive success in every endeavor.
     """
     gui.info(content)
 
@@ -31,7 +29,7 @@ with col3:
     for index, row in df[:10].iterrows():
         gui.header(row["title"])
         gui.write(row["description"])
-        gui.image("images/" + row["image"])
+        gui.image("images/" + row["image"], width=480)
         gui.write(f"[Source Code] ({row['url']})")
 
 
@@ -39,5 +37,5 @@ with col4:
     for index, row in df[10:].iterrows():
         gui.header(row["title"])
         gui.write(row["description"])
-        gui.image("images/" + row["image"])
+        gui.image("images/" + row["image"], width=480)
         gui.write(f"[Source Code] ({row['url']})")
