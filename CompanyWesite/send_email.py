@@ -8,7 +8,7 @@ def __init__():
 
 def send_email(message, receiver):
     username = "shivam.gpt499@gmail.com"
-    password = "aywd yhvy shek hvuy"
+    password = "***********"
     host = "smtp.gmail.com"
     port = 465
     context = ssl.create_default_context()
