@@ -58,3 +58,10 @@ Start Building Desktop app
 learning various GUI styles, giving final touch to program
 #### Day19
 building web app using streamlit third party module.
+### Day 20
+Revision on the Day 1 to Day19
+### Day 21, 22,23
+Learned to create Personal Portfolio and Company website using Streamlit library.
+Learned to send email through gmail using SMTP protocal
+### Day 24
+Follow the PEP 8 guide for following Coding standards. Learned about fpdf module to create pdf files.
