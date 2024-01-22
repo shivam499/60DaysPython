@@ -65,3 +65,6 @@ Learned to create Personal Portfolio and Company website using Streamlit library
 Learned to send email through gmail using SMTP protocal
 ### Day 24
 Follow the PEP 8 guide for following Coding standards. Learned about fpdf module to create pdf files.
+
+### Day 29, 30, 31
+Building Weather Data API using **Flask**
