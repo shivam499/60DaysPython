@@ -73,3 +73,6 @@ Building Weather Data API using **Flask**
 Created Weather forecast application using OpenWeatherMap Api and Streamlit library.
 
 #### Day 34, 35
+Learned the NLP library with implementation
+
+#### Day 36, 37
