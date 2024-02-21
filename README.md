@@ -21,7 +21,7 @@ CE --> Code Experiment
 Python library to create Web Apps easily
 
 #### Day1
-basic list operations, type checking,input() function, variables
+basic list operations, type checking, input() function, variables
 #### Day2
 while loop, string case methods, indentations
 #### Day3
@@ -51,20 +51,25 @@ using local modules, importing created methods from different files to main prog
 #### Day15
 time module, start using git
 #### Day16
-using third party library PySismpleGUI, using GitHub
+using third party library PySimpleGUI, using GitHub
 #### Day17
 Start Building Desktop app
 #### Day18
 learning various GUI styles, giving final touch to program
 #### Day19
 building web app using streamlit third party module.
-### Day 20
-Revision on the Day 1 to Day19
-### Day 21, 22,23
-Learned to create Personal Portfolio and Company website using Streamlit library.
-Learned to send email through gmail using SMTP protocal
-### Day 24
+#### Day 20
+Revision on Day 1 to Day19
+#### Day 21, 22,23
+Learned to create a Personal Portfolio and Company website using a Streamlit library.
+Learned to send email through gmail using SMTP protocol
+#### Day 24
 Follow the PEP 8 guide for following Coding standards. Learned about fpdf module to create pdf files.
 
-### Day 29, 30, 31
+#### Day 29, 30, 31
 Building Weather Data API using **Flask**
+
+#### Day 32, 33
+Created Weather forecast application using OpenWeatherMap Api and Streamlit library.
+
+#### Day 34, 35
