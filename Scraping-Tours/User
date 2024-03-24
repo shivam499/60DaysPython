@@ -1,0 +1,2 @@
+class User:
+    def get_name(self):
