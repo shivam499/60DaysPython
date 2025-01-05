@@ -38,7 +38,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\PyPSpark\netflix_titles.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Todo_CLI\Day15\files\weather.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\netflix_titles.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

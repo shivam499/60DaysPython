@@ -7,7 +7,9 @@ import selectorlib
 
 URL = "http://programmer100.pythonanywhere.com/tours/"
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/39.0.2171.95 Safari/537.36'}
+
 
 class Event:
     def scrape(self, url):
@@ -20,6 +22,7 @@ class Event:
         extractor = selectorlib.Extractor.from_yaml_file("extract.yaml")
         value = extractor.extract(source)["tours"]
         return value
+
 
 class Email:
     def send(self, message):
@@ -37,6 +40,7 @@ class Email:
             server.sendmail(username, receiver, message)
         print("Email was sent!")
 
+
 class Database:
 
     def __init__(self, db_path):
@@ -48,7 +52,6 @@ class Database:
         cursor = self.connection.cursor()
         cursor.execute("INSERT INTO events VALUES(?,?,?)", row)
         self.connection.commit()
-
 
     def read(self, extracted):
         row = extracted.split(",")
